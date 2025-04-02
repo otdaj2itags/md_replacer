@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-clap = { version = "4", features = ["derive"] }
-anyhow = "1"
-scraper = "0.18"
+clap = { version = "4.4", features = ["derive"] }
+scraper = "0.14"
+kuchiki = "0.8.1"
