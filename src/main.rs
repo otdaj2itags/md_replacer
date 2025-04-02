@@ -57,7 +57,7 @@ fn parse_table(table_html: &str) -> Result<(Vec<String>, Vec<Vec<kuchiki::NodeRe
     Ok((headers, rows, table_node))
 }
 
-/// Возвращает внутреннюю HTML-разметку узла (без внешнего тега самого узла).
+
 fn get_inner_html(node: &kuchiki::NodeRef) -> String {
     let mut html = Vec::new();
     for child in node.children() {
@@ -66,9 +66,8 @@ fn get_inner_html(node: &kuchiki::NodeRef) -> String {
     String::from_utf8(html).unwrap_or_default()
 }
 
-/// Заменяет содержимое узла новым HTML. При этом сохраняется сам тег и его атрибуты.
+
 fn set_inner_html(node: &kuchiki::NodeRef, new_html: &str) {
-    // Собираем всех потомков в вектор и для каждого вызываем detach()
     for child in node.children().collect::<Vec<_>>() {
         child.detach();
     }
