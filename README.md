@@ -16,6 +16,6 @@ md-role-sync --target target.md --source source.md --header-target "### Target H
 ```
 
 - You can add as many fields as needed and if there are same headers in Target and Source files you can mention it once just as --header
-- Also u can exclude --verbose flag if you dont need additional logging
+- Also you can exclude --verbose flag if you dont need additional logging
 
 
