@@ -1,5 +1,5 @@
 
-# md-role-sync
+# md-sync
 
 **`md-role-sync`** is a Rust-based CLI tool for synchronizing table content between two Markdown files.
 
@@ -12,7 +12,7 @@
 ## 📦 Usage
 
 ```sh
-md-role-sync --target target.md --source source.md --header-target "### Target Header {#anchor}" --header-source "### Source Header" --field "TargetField=SourceField" [--field "AnotherTarget=AnotherSource"] [--verbose]
+md-sync --target target.md --source source.md --header-target "### Target Header {#anchor}" --header-source "### Source Header" --field "TargetField=SourceField" [--field "AnotherTarget=AnotherSource"] [--verbose]
 ```
 
 - You can add as many fields as needed and if there are same headers in Target and Source files you can mention it once just as --header
