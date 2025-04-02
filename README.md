@@ -12,5 +12,5 @@
 ## 📦 Usage
 
 ```sh
-md-role-sync --source instruction-ecpk.md --target alaudaconcept.md
+md-role-sync --source <source-file> --target <target-file>
 
