@@ -1,7 +1,7 @@
 
 # md-sync
 
-**`md-role-sync`** is a Rust-based CLI tool for synchronizing table content between two Markdown files.
+**`md-sync`** is a Rust-based CLI tool for synchronizing table content between two Markdown files.
 
 ## ✨ Features
 
