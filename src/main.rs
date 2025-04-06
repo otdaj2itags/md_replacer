@@ -77,6 +77,7 @@ fn set_inner_html(node: &kuchiki::NodeRef, new_html: &str) {
     }
 }
 
+/// syncing
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let matches = Command::new("md-role-sync")
         .version("0.1.0")
